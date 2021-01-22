@@ -1,0 +1,33 @@
+#contact-block {
+    margin: 0;
+    padding: 5%;
+    text-align: left;
+    color: black;
+}
+
+#contact-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+input {
+    font-size: 13px;
+    height: 25px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #B1B1B1;
+    color: #B1B1B1;
+    background: rgba(0,0,0,0);
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    opacity: 1;
+}
+

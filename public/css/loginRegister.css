@@ -1,0 +1,28 @@
+#logRegContainer {
+    background-image: url("/svg/welcome-bcg.svg");
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+    position: relative;
+    transition: box-shadow .25s ease-in;
+    margin: 0 auto;
+}
+
+
+
+
+.login-input {
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #B1B1B1;
+    color: indianred;
+    background: rgba(0,0,0,0);
+    opacity: 0.5;
+    transition: 0.2s ease;
+}

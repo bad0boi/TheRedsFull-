@@ -1,0 +1,90 @@
+.wrapper {
+    margin: 0;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+
+#avatar {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#userProfileView {
+    margin: 10px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+    position: relative;
+    transition: box-shadow .25s ease-in;
+}
+
+
+#allUsers {
+    margin: 6%;
+    width: 21.25%;
+    float: left;
+    height: 200px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0.9;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#allUsersSection {
+
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    -webkit-transition: box-shadow 0.25s ease-in;
+    transition: box-shadow 0.25s ease-in;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+#profile-card, p {
+
+    color: black;
+    margin: 10px;
+
+
+}
+
+#profile-sidebar {
+
+    max-width: 200px;
+}
+
+
+
+#userAvatar {
+    margin: 2%;
+    display: inline-block;
+}
+
+
+
+.port_container {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.port{
+    background-size: cover;
+    color: white;
+}
+
+.port_container2 {
+    margin: 50px;
+    padding: 5px;
+}
+
+.form-control {
+    color: black;
+}

@@ -1,0 +1,99 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Custom made by me
+
+$primary: indianred;
+$secondary: black;
+$third: #f7f7f7;
+$darkHeader: black;
+
+
+
+//html, body {
+//    background: $primary;
+//    margin: 0;
+//    max-width: 100%;     /* Max-width 100% and overflowX hidden = Disabling horizontal scroll -_- */
+//    overflow-x: hidden;
+//}
+
+#exclusiveNews
+{
+    color:$secondary;
+    padding: 25px;
+
+}
+
+#home-container, {
+    margin: 0;
+}
+
+.col {
+    padding: 30px;
+}
+
+.col-sm {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+    position: relative;
+    transition: box-shadow .25s ease-in;
+    margin: 10px;
+}
+
+
+#register-banner {
+    color: $third;
+    text-align: center;
+    padding: 5%;
+
+}
+
+#aboutus {
+    margin: 0;
+    padding: 5%;
+    text-align: left;
+    color: $secondary;
+}
+
+/* Terms and Conditions / Cookies */
+
+#termsandconditions {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.6);
+    display: block;
+    color: white;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+
+#termsandconditions p , #termsandconditions button {
+    display: inline;
+}
+
+
+
+
+/* Viewport, Responsive Styling*/
+
+@media screen and (max-width: 300px) {
+    #menu a:not(:first-child) {display: none;}
+    #menu ul, li {
+        float: right;
+        display: block;
+    }
+}
+
+
+
+
